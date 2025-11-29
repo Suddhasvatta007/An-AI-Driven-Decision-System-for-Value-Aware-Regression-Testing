@@ -2,10 +2,6 @@
 
 This repository contains the code and datasets for a research project comparing five different algorithms for the constrained test case selection problem: a baseline Binary Constrained Particle Swarm Optimization (BCPSO), a Non-Dominated Genetic Algorithm - II (NSGA-II), and a purely Random Selector (RAND).
 
-The project is structured to allow for the generation of synthetic datasets and the subsequent analysis of these datasets by each algorithm.
-
----
-
 ## Current Repository Structure
 
 ```
@@ -89,7 +85,6 @@ Some result files are already present in the repository under the algorithm-spec
 
 - Filenames: There is a minor typo in `CodeFiles/Random/Random Selecton Code.ipynb` ("Selecton" -> "Selection"). Renaming is optional but recommended for clarity.
 - NSGA-II: One NSGA-II notebook filename includes double extension `NSGA-II 80-248 implementation.ipynb.ipynb`; consider renaming to a single `.ipynb` extension.
-- If you want me to: I can run quick checks to list files in each folder, fix the filename typos, or open any notebook and extract the main entry points or README snippets.
 
 ---
 
@@ -99,4 +94,4 @@ Some result files are already present in the repository under the algorithm-spec
 - Standardize filenames and folder naming for clarity.
 - Add a `requirements.txt` or `environment.yml` describing Python and Jupyter dependencies for reproducible runs.
 
-If you'd like, I can proceed to perform any of the optional steps above (list files, rename notebooks, add dependencies file).
+
